@@ -1,4 +1,4 @@
-package com.company;
+package company;
 
 class Monkey{
     void jump(){
@@ -12,9 +12,9 @@ interface BasicAnimal{
     void eat();
     void sleep();
 }
-class Human extends Mokey implements BasicAnimal{
+class Human extends Monkey implements BasicAnimal{
     @Override
-    public vo'id eat() {
+    public void eat() {
         System.out.println("you can eat!!");
     }
 
