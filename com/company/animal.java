@@ -14,7 +14,7 @@ interface BasicAnimal{
 }
 class Human extends Mokey implements BasicAnimal{
     @Override
-    public void eat() {
+    public vo'id eat() {
         System.out.println("you can eat!!");
     }
 

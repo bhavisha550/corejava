@@ -6,13 +6,13 @@ class A {
     }
 
     public void meth2() {
-        System.out.println("meth1 of com.company.A");
+        System.out.println("meth2 of com.company.A");
     }
 }
 class B extends A{
     @Override
     public void meth2(){
-        System.out.println("meth1 of com.company.B");
+        System.out.println("meth2 of com.company.B");
     }
 }
 
