@@ -11,7 +11,7 @@ class Patient extends Person {
     }
 }
 
-public class Super {
+public class Superrr {
     public static void main(String[] args) {
         Person p = new Patient();
         p.work();
