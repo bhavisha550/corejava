@@ -7,7 +7,7 @@ class Person {
 class Patient extends Person {
     public void work(){
         super.work();
-        System.out.println("patient is working");
+        System.out.println("patient iss working");
     }
 }
 
